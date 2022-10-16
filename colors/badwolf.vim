@@ -83,7 +83,7 @@ let s:bwc.dalespale = ['fade3e', 221]
 let s:bwc.dirtyblonde = ['f4cf86', 222]
 
 " Delicious, chewy red from Made of Code for the poppiest highlights.
-let s:bwc.taffy = ['ff2c4b', 196]
+let s:bwc.taffy = ['ed3450', 196]
 
 " Another chewy accent, but use sparingly!
 let s:bwc.saltwatertaffy = ['8cffba', 121]
