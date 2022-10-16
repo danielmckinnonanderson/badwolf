@@ -58,7 +58,7 @@ let s:bwc = {}
 
 " The most basic of all our colors is a slightly tweaked version of the Molokai
 " Normal text.
-let s:bwc.plain = ['dedcd7', 15]
+let s:bwc.plain = ['c9c7c1', 15]
 
 " Pure and simple.
 let s:bwc.snow = ['ffffff', 15]
