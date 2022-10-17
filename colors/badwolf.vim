@@ -104,7 +104,7 @@ let s:bwc.orange = ['ffa724', 214]
 let s:bwc.lime = ['aeee00', 154]
 
 " Rose's dress in The Idiot's Lantern.
-let s:bwc.dress = ['ff9eb8', 211]
+let s:bwc.dress = ['ff85a5', 211]
 
 " Another play on the brown from Clouds Midnight.  I love that color.
 let s:bwc.toffee = ['b88853', 137]
