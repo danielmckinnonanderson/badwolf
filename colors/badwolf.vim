@@ -113,6 +113,8 @@ let s:bwc.toffee = ['b88853', 137]
 let s:bwc.coffee    = ['c7915b', 173]
 let s:bwc.darkroast = ['88633f', 95]
 
+let s:bwc.magenta = ['8b32c2', 154]
+
 " }}}
 " Highlighting Function {{{
 function! s:HL(group, fg, ...)
@@ -268,6 +270,7 @@ call s:HL('Repeat',      'taffy', '', 'none')
 " Functions and variable declarations are orange, because plain looks weird.
 call s:HL('Identifier', 'orange', '', 'none')
 call s:HL('Function',   'orange', '', 'none')
+" TODO - make parentheses, brackets, and curlies pop more. Bold / bright white?
 
 " Preprocessor stuff is lime, to make it pop.
 "
@@ -304,6 +307,15 @@ call s:HL('Exception', 'lime', '', 'bold')
 call s:HL('Error',  'snow',   'taffy', 'bold')
 call s:HL('Debug',  'snow',   '',      'bold')
 call s:HL('Ignore', 'gravel', '',      '')
+
+
+" -- Rust 
+" Make unsafe keyword stand out
+call s:HL('rustUnsafeKeyword', 'lime', '', 'bold')
+
+" Make data movement visually noticeable
+call s:HL('rustStorage', 'magenta', '', 'bold')
+
 
 " }}}
 " Completion Menu {{{
