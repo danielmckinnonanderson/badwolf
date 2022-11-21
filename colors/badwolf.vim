@@ -113,7 +113,8 @@ let s:bwc.toffee = ['b88853', 137]
 let s:bwc.coffee    = ['c7915b', 173]
 let s:bwc.darkroast = ['88633f', 95]
 
-let s:bwc.magenta = ['8b32c2', 154]
+" Vibrant blue-ish purple for significant contrast
+let s:bwc.bruise = ['8b32c2', 154]
 
 " }}}
 " Highlighting Function {{{
@@ -314,7 +315,7 @@ call s:HL('Ignore', 'gravel', '',      '')
 call s:HL('rustUnsafeKeyword', 'lime', '', 'bold')
 
 " Make data movement visually noticeable
-call s:HL('rustStorage', 'magenta', '', 'bold')
+call s:HL('rustStorage', 'bruise', '', 'bold')
 
 
 " }}}
