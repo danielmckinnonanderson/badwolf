@@ -114,7 +114,7 @@ let s:bwc.coffee    = ['c7915b', 173]
 let s:bwc.darkroast = ['88633f', 95]
 
 " Vibrant blue-ish purple for significant contrast
-let s:bwc.bruise = ['8b32c2', 154]
+let s:bwc.bruise = ['8752a8', 154]
 
 " }}}
 " Highlighting Function {{{
@@ -308,14 +308,6 @@ call s:HL('Exception', 'lime', '', 'bold')
 call s:HL('Error',  'snow',   'taffy', 'bold')
 call s:HL('Debug',  'snow',   '',      'bold')
 call s:HL('Ignore', 'gravel', '',      '')
-
-
-" -- Rust 
-" Make unsafe keyword stand out
-call s:HL('rustUnsafeKeyword', 'lime', '', 'bold')
-
-" Make data movement visually noticeable
-call s:HL('rustStorage', 'bruise', '', 'bold')
 
 
 " }}}
@@ -651,6 +643,15 @@ call s:HL('pythonPrecondit',   'lime', '', 'none')
 call s:HL('pythonDecorator',   'taffy', '', 'none')
 call s:HL('pythonRun',         'gravel', '', 'bold')
 call s:HL('pythonCoding',      'gravel', '', 'bold')
+
+" }}}
+" Rust {{{
+" Make unsafe keyword stand out
+call s:HL('rustUnsafeKeyword', 'lime', '', 'bold')
+
+" Make data movement visually noticeable
+call s:HL('rustStorage', 'bruise', '', 'bold')
+
 
 " }}}
 " SLIMV {{{
